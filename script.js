@@ -10,6 +10,7 @@ form.addEventListener('submit', function (e) {
     e.preventDefault();
     const forecastDays = document.querySelectorAll('ul .city');
     cityName = input.value;
+    
     // getCityData();
 
 
